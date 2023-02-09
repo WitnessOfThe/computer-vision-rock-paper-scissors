@@ -6,17 +6,17 @@ def get_computer_choice():
 
 def get_user_choice():
 
-    while True:
+#    while True:
 
         choice = input("Gimmi 'rock', 'paper' or 'scissors' ")
 
-        if choice in ['rock', 'paper','scissors']:
+ #       if choice in ['rock', 'paper','scissors']:
 
             return choice
 
-        else:
+  #      else:
 
-            print('Try again, one from the list: "rock", "paper" or"scissors"')            
+   #         print('Try again, one from the list: "rock", "paper" or"scissors"')            
 
 if __name__ == '__main__':
 
