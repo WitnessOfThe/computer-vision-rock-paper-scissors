@@ -43,7 +43,7 @@ def get_winner(computer_choice,user_choice):
 
         print("You won!")
 
-    elif computer_choice == user_choice:
+    else:#~ computer_choice == user_choice:
 
         print("It is a tie!")
 
