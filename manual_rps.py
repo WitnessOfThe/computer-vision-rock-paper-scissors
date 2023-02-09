@@ -12,7 +12,7 @@ def get_user_choice():
 
  #       if choice in ['rock', 'paper','scissors']:
 
-            return choice
+    return choice
 
   #      else:
 
