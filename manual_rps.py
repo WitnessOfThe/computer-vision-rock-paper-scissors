@@ -2,13 +2,13 @@ import random
 
 def get_computer_choice():
 
-    return random.choice(['rock', 'paper','scissors']) 
+    return random.choice(['Rock', 'Paper','Scissors']) 
 
 def get_user_choice():
 
 #    while True:
 
-    choice = input("Gimmi 'rock', 'paper' or 'scissors' ")
+    choice = input("Gimmi 'Rock', 'Paper' or 'Scissors' ")
 
  #       if choice in ['rock', 'paper','scissors']:
 
@@ -19,27 +19,27 @@ def get_user_choice():
    #         print('Try again, one from the list: "rock", "paper" or"scissors"')            
 def get_winner(computer_choice,user_choice):
 
-    if computer_choice == 'rock' and user_choice == 'scissors':
+    if computer_choice == 'Rock' and user_choice == 'Scissors':
 
         print("You lost")
 
-    elif computer_choice == 'rock' and user_choice == 'paper':
+    elif computer_choice == 'Rock' and user_choice == 'Paper':
 
         print("You won")
 
-    elif computer_choice == 'scissors' and user_choice == 'paper':
+    elif computer_choice == 'Scissors' and user_choice == 'Paper':
 
         print("You lost")
 
-    elif computer_choice == 'scissors' and user_choice == 'rock':
+    elif computer_choice == 'Scissors' and user_choice == 'Rock':
 
         print("You won")
 
-    elif computer_choice == 'paper' and user_choice == 'rock':
+    elif computer_choice == 'Paper' and user_choice == 'Rock':
 
         print("You lost")
 
-    elif computer_choice == 'paper' and user_choice == 'scissors':
+    elif computer_choice == 'Paper' and user_choice == 'Scissors':
 
         print("You won")
 
