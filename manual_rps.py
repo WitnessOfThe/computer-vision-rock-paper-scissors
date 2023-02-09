@@ -18,30 +18,30 @@ def get_user_choice():
 
    #         print('Try again, one from the list: "rock", "paper" or"scissors"')            
 def get_winner(computer_choice,user_choice):
-
+    print(computer_choice)
     if computer_choice == 'Rock' and user_choice == 'Scissors':
 
-        print("You lost")
+        print("You lost!")
 
     elif computer_choice == 'Rock' and user_choice == 'Paper':
 
-        print("You won")
+        print("You won!")
 
     elif computer_choice == 'Scissors' and user_choice == 'Paper':
 
-        print("You lost")
+        print("You lost!")
 
     elif computer_choice == 'Scissors' and user_choice == 'Rock':
 
-        print("You won")
+        print("You won!")
 
     elif computer_choice == 'Paper' and user_choice == 'Rock':
 
-        print("You lost")
+        print("You lost!")
 
     elif computer_choice == 'Paper' and user_choice == 'Scissors':
 
-        print("You won")
+        print("You won!")
 
     elif computer_choice == user_choice:
 
