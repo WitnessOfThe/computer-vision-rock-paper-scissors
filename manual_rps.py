@@ -8,7 +8,7 @@ def get_user_choice():
 
 #    while True:
 
-        choice = input("Gimmi 'rock', 'paper' or 'scissors' ")
+    choice = input("Gimmi 'rock', 'paper' or 'scissors' ")
 
  #       if choice in ['rock', 'paper','scissors']:
 
