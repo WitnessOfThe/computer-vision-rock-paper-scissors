@@ -61,6 +61,8 @@ def get_prediction():
             data[0] = normalized_image
             prediction = model.predict(data)
             cv2.imshow('frame', frame)
+            cap.release()
+            cv2.destroyAllWindows() 
             return list(prediction)
 
         elif round(t2-t1) == i:
@@ -91,11 +93,12 @@ def get_user_choice():
 
 def play(): 
 
-    user_wins  = 0
-    rounds     = 5
+    user_wins      = 0
+    rounds_played  = 0
 
-    for _ in range(rounds):
+    while rounds_played  <=  5:
 
+        
         if user_wins == 3:
 
             print('User Won!')
@@ -104,9 +107,9 @@ def play():
 
             user_wins += get_winner(get_computer_choice(),get_user_choice())
 
-    if user_wins < 3:
+        rounds_played += 1
 
-        print('You played 5 rounds')
+    print('You played 5 rounds')
 
                 
 
