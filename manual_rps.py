@@ -47,7 +47,9 @@ def get_winner(computer_choice,user_choice):
 
         print("It is a tie!")
 def play(): 
+
     get_winner(get_computer_choice(),get_user_choice()) 
+    
 if __name__ == '__main__':
     play()
 #    print(get_computer_choice())
