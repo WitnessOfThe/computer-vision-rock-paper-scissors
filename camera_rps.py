@@ -96,12 +96,18 @@ def play():
     user_wins      = 0
     rounds_played  = 0
 
-    while rounds_played  <=  5:
+    while True:
 
         
         if user_wins == 3:
 
             print('User Won!')
+            break
+
+        elif rounds_played == 5:
+
+            print('Game Over!')
+            break
 
         else:
 
@@ -109,7 +115,6 @@ def play():
 
         rounds_played += 1
 
-    print('You played 5 rounds')
 
                 
 
