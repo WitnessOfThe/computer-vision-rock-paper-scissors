@@ -12,4 +12,6 @@ In the "manual_rps.py", we implemented the manual "Rock, Paper, Scissors" game. 
 
 # Milestone 5
 
-The final version of the program ("camera_rps_Finall.py") implements the classic "Rock, Paper, Scissors" game of the user vs computer. The user's choice is taken from the webcam image and classified using a trained beforehand model. The game is implemented by using the class "RockPaperScissors". To handle a camera and communicate with the user, we used the "cv2" package. Here, we construct our program in a way, that allows a user to see his image in real-time and be able to know if the mode reconstructed his gest in the right way. 
+The final version of the program ("camera_rps_Finall.py") implements the classic "Rock, Paper, Scissors" game of the user vs computer. The user's choice is taken from the webcam image and classified using a trained beforehand model. The game is implemented by using the class "RockPaperScissors". To handle a camera and communicate with the user, we used the "cv2" package. Here, we construct our program in a way, that allows a user to see his image in real-time and be able to know if the mode reconstructed his gest in the right way. ![f_1](https://user-images.githubusercontent.com/33790455/218197101-1c437d0b-096c-4dc9-aab4-20f9317a9958.PNG)![f_2](https://user-images.githubusercontent.com/33790455/218197120-798d905e-4adf-4317-960b-5e8106a839cf.PNG)![f_3](https://user-images.githubusercontent.com/33790455/218197125-19f7856e-4f0a-41c1-a6dd-eb73641c91d3.PNG)
+
+
