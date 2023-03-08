@@ -1,7 +1,7 @@
 
 # Computer Vision Rock-Paper-Scissors (RPS) 
 
-Educational project.  Here we utilise trained a computer vision model using [Teachable-Machine](https://teachablemachine.withgoogle.com/). The model detects whether the user shows Rock, Paper, or Scissors to the camera, so the user can leverage that output to play an RPS game with the computer. We access model through TenserFlow API
+Educational project.  Here we utilise trained a computer vision model using [Teachable-Machine](https://teachablemachine.withgoogle.com/). The model detects whether the user shows Rock, Paper, or Scissors to the camera, so the user can leverage that output to play an RPS game with the computer. We access model through TenserFlow API and handle web-camera using OpenCV.
 
 ## Milestone 2
 
